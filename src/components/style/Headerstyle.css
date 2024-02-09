@@ -1,0 +1,38 @@
+.main-headerclass{
+ 
+    margin: 20px 16% 20px 16%;
+  }
+  .card.with-shadow {
+    box-shadow:  2px 8px 30px 5px rgb(199, 206, 206);
+  }
+  .heading{
+    font-weight: 900px;
+    display: block;
+    text-align: center;
+    margin-top:110px;
+    text-shadow: 10%;
+  }
+  /* .hadermainbody{
+    background-color: rgba(0, 0, 0, 0.733);
+  } */
+
+  .alt{
+    text-align: center;
+    font-size: 400px
+  }
+  a:hover{
+  
+    background-color: rgba(255, 255, 255, 0.223);
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgb(92, 95, 95)
+  }
+  a{
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+   }
+
+   .hadermainbody{
+    position: relative;
+    top:10px;
+   }

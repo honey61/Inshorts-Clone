@@ -1,0 +1,119 @@
+
+.alltitle{
+  position: absolute;
+  /* background-color : rgba(255, 255, 255,); */
+  width:350px;
+  height:100%;
+  display: inline-block;
+
+
+}
+.title{
+  
+  color:black;
+  background-color: white;
+  border: solid lightblue 1px;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin: 10px 10px;
+  width:150px;
+  height:150px;
+  display: inline-block; 
+ 
+  
+}
+
+.title.img1{
+  background-image: url('./images/Lovepik_com-611695488-Desktop\ flat\ business\ computer\ png\ free\ buckle.png');
+  background-size: cover;
+}
+.title.img2{
+  
+  background-image: url('./images/Lovepik_com-610812578-2018\ Football\ World\ Cup\ Trophy.png');
+  background-size: cover;
+}
+.title.img3{
+  
+  /* background-image: url('./images/â€”Pngtreeâ€”technology\ network\ line\ ball\ decorative_5626999.png'); */
+  background-size: cover;
+  transform:matrix(23px,45px)
+}
+.title.img4{
+
+  background-image: url('./images/pngwing.com.png');
+  background-size: cover;
+}
+.title.img5{
+
+  background-image: url('./images/travel.png');
+  background-size: cover;
+}
+.title.img6{
+  
+  background-image: url('./images/Lovepik_com-610812578-2018\ Football\ World\ Cup\ Trophy.png');
+  background-size: cover;
+}
+.text{
+  color: black;
+  margin: 0px;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* .main-body:hover{
+  width: 400px;
+  transition: all 0.9s ease; 
+} */
+
+.title:hover {
+  box-shadow: 2px 5px 2px 2px rgb(154, 227, 243);
+  width:155px;
+  height:155px;
+  cursor: pointer;
+}
+
+
+/* Styles for the toggle sidebar navigation menu */
+.sidebar {
+
+  position: relative;
+  top: 0px;
+  left: -400px; /* Hide the sidebar initially by moving it to the left */
+  width: 300px;
+  height: 100%;
+
+  padding: 0px;
+  transition: left 0.3s ease;
+  z-index: 1; /* Add transition for smooth animation */
+  
+  
+}
+
+/* Show the sidebar when it's open */
+.sidebar.open {
+  left:0;
+}
+
+.main-body {
+  padding-left: 0px;
+  
+
+   /* Add some padding to the content area to accommodate the sidebar */
+}
+
+.toggle-button {
+  position: absolute;
+  top: 30px;
+  left:24px;
+  z-index: 1;
+  border: none; 
+  color: white;
+  background-color:black;/* Make sure the button appears above the sidebar */
+}
+
+
+/* loading button */
+
+
+
+

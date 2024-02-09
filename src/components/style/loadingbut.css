@@ -1,0 +1,24 @@
+.butn5 {
+  display: flex;
+   justify-content: center;
+    align-items: center;
+    /* Add any other styles for the container if needed */
+  }
+  .button5 {
+    margin: 50px;
+    z-index: 9999;
+    padding: 6px 20px;
+    background-color: white;
+    color: black;
+    border: snow;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease; /* Add transition property to create the scaling effect */
+  }
+  
+  .button5:hover {
+    box-shadow:  2px 8px 30px 5px rgb(171, 174, 174);
+    transform: scale(0.5.0.5); /* The button will scale by 10% on hover (you can adjust the scale value as needed) */
+  }
+  

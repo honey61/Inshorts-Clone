@@ -1,0 +1,54 @@
+.footer-container {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    background-color: #212020;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+    box-shadow: inset 0px -8px 10px 5px rgba(200, 173, 173, 0.3),
+    2px -10px 30px 5px rgb(122, 126, 126);
+  }
+  .footer-inshorts-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .footer-headline {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .footer-description {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  
+  .footer-contact {
+    margin-top: 30px;
+  }
+  
+  .footer-contact-heading {
+    cursor:pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .footer-contact-heading:hover{
+    background-color: rgba(255, 255, 255, 0.223);
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgb(92, 95, 95)
+  }
+  
+  .footer-terms-conditions {
+    font-size: 14px;
+  }
+  
