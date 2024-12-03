@@ -13,8 +13,8 @@ The Inshorts Clone is a full-stack web application that fetches and displays new
 - **Full-Stack Implementation:** Integrates front-end and back-end seamlessly.  
 
 ## Technologies Used  
-- **MongoDB:** For storing and managing news article data.  
-- **Express:** For building the back-end API.  
+- **MongoDB:** For storing login and signup details.  
+- **Express:** For building the back-end API,and fetching news.  
 - **React.js:** For creating a responsive and interactive user interface.  
 - **Node.js:** For running the server-side application logic.  
 
